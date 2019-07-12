@@ -5,8 +5,8 @@ import Hello from "../../src/components/Hello";
 describe("Hello", () => {
   describe("render", () => {
     test("Debería renderizar con un nombre correcto", () => {
-      const wrapper = shallow(<Hello name="Juan" />);
-      expect(wrapper.find("h1").text()).toBe("Hello Juan");
+      const wrapper = shallow(<Hello name="Pepe" />);
+      expect(wrapper.find("h1").text()).toBe("Hello Pepe");
     });
   });
 });
